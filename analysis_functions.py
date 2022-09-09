@@ -421,6 +421,11 @@ def find_if_params_equal(params1, params2):
     else:
         return False
 
+def lin2db(x):
+    return 10*np.log10(x)
+def db2lin(x):
+    return 10**(x/10)
+
     
     
 
